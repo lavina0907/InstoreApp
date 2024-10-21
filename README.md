@@ -128,6 +128,8 @@ curl --location --request POST 'http://localhost:8081/item/delete/32'
 ### Response:
 200 OK
 
+## Kafka Log Table : inventory_activity
+
 
 
 
