@@ -1,0 +1,3 @@
+ALTER TABLE inventory DROP COLUMN IF EXISTS inventory_id;
+
+ALTER TABLE inventory ADD COLUMN IF NOT EXISTS inventory_id SERIAL PRIMARY KEY;
